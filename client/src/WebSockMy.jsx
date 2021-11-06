@@ -37,7 +37,7 @@ const WebSockMy = () => {
     }
 
     const sendMessage = async () => {
-        const time = new Date;
+        const time = new Date();
         const message = {
             userName,
             message: value,
