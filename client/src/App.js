@@ -1,14 +1,12 @@
 import React from 'react';
 import './app.css'
-import LongPulling from "./LongPulling";
-import EventSourcing from "./EventSourcing";
-import WebSock from "./WebSock";
+import WebSockMy from "./WebSockMy";
 
 function App() {
 
   return (
       <div>
-        <WebSock/>
+        <WebSockMy/>
       </div>
   )
 }
