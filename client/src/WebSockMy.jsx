@@ -63,7 +63,7 @@ const WebSockMy = () => {
                     <form onSubmit={e => submitHandler(e, connect)}>
                         <input
                             type="text"
-                            placeholder="Видеите ваше имя"
+                            placeholder="Видеите ваше имя!"
                             value={userName}
                             onChange={e => setUserName(e.target.value)}/>
                     </form>
